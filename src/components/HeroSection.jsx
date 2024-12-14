@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import profileImage from '../assets/ww.jpg'; // Replace with your new image
 
 const HeroSection = () => {
@@ -22,12 +23,12 @@ const HeroSection = () => {
           I specialize in creating solutions that make a real difference. Let's build something amazing together.
         </p>
         {/* View Work Button */}
-        <a 
-          href="projects"  // Updated to the correct section ID
+        <Link 
+          to="/projects"  // Use Link with to attribute for navigation
           className="bg-teal-800 hover:bg-teal-700 text-white py-3 px-8 rounded-full text-xl transition transform hover:scale-105"
         >
           View My Work
-        </a>
+        </Link>
       </div>
     </div>
   );
