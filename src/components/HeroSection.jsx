@@ -23,7 +23,7 @@ const HeroSection = () => {
         </p>
         {/* View Work Button */}
         <a 
-          href="projects" 
+          href="Projects" 
           className="bg-teal-800 hover:bg-teal-700 text-white py-3 px-8 rounded-full text-xl transition transform hover:scale-105"
         >
           View My Work
