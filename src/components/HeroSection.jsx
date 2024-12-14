@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../assets/kevinRushProfile.jpg'; // Adjust the path if needed
+import profileImage from '../assets/ww.jpg'; // Replace with your new image
 
 const HeroSection = () => {
   return (

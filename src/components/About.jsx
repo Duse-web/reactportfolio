@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImage from '../assets/about.jpg'; // Make sure the image is in the 'assets' folder
+import aboutImage from '../assets/user.jpg'; // Make sure the image is in the 'assets' folder
 
 const About = () => {
   return (

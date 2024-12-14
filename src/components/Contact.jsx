@@ -29,9 +29,13 @@ const Contact = () => {
           </a>
         </div>
 
-        {/* Footer Info (Optional) */}
+        {/* Email Address */}
         <p className="text-sm text-teal-100">You can also reach me directly at: <strong>dusetrevor2001@gmail.com</strong></p>
 
+        {/* Phone Number */}
+        <p className="text-lg text-teal-300 font-semibold mt-4">
+          Or give me a call: <span className="text-white font-bold">+256-757-901-273</span> or <span className="text-white font-bold">+256-783-198-374</span> 
+        </p>
       </div>
     </div>
   );
