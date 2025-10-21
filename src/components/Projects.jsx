@@ -2,6 +2,7 @@ import React from 'react';
 import projectImage1 from '../assets/qq.jpg'; // Image for the first project
 import projectImage2 from '../assets/dd.jpg'; // Image for the second project
 import projectImage3 from '../assets/oo.png'; // Image for the third project
+import projectImage4 from '../assets/solarproject.png'; // Image for the third project
 
 const Projects = () => {
   return (
@@ -51,6 +52,24 @@ const Projects = () => {
             <p className="text-gray-700 mb-4">
               One of my earlier portfolio projects. Highlights various skills and projects I have worked on.
               Technologies used: HTML, CSS, and JavaScript.
+            </p>
+            <a 
+              href="https://dusetrevorportfolio.netlify.app" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="bg-teal-600 hover:bg-teal-700 text-white py-2 px-6 rounded-full text-lg transition"
+            >
+              View Project
+            </a>
+          </div>
+
+          {/* New Project 4 */}
+          <div className="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <img src={projectImage4} alt="Mk solar site" className="w-full h-48 object-cover rounded-lg mb-4" />
+            <h3 className="text-xl font-semibold text-teal-600 mb-4">A solar site</h3>
+            <p className="text-gray-700 mb-4">
+              A solar site project showcasing MK solar company as a branch of environmental wellness through the use 
+              solar energy in the community.
             </p>
             <a 
               href="https://dusetrevorportfolio.netlify.app" 

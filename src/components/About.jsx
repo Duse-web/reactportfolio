@@ -55,6 +55,9 @@ const About = () => {
               <li className="flex items-center">
                 <span className="w-6 h-6 mr-3 text-teal-400">•</span> Git, GitHub & Version Control
               </li>
+              <li className="flex items-center">
+                <span className="w-6 h-6 mr-3 text-teal-400">•</span> PHP based web-development
+              </li>
             </ul>
           </div>
         </div>
